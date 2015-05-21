@@ -1,0 +1,65 @@
+---
+title       : MyCalculator
+subtitle    : R Shiny Application 
+author      : Naveen Silvester
+job         : Data Scientist
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Slide 2: Introduction to My Calculator
+<a href="https://naveensilvester.shinyapps.io/MyCalculator/">MyCalculator</a> is an application developed in R shiny. This application enables user to enter two numbers and apply mathematical operations on it. Three mathematical
+operations are provided as choice. The default is Addition. The results from the mathematical operations is printed on to the main panel. The main panel also provides the option to see
+the Documentation/User Guide on checking the checkbox provided in the left side panel.
+Click here to experience <a href="https://naveensilvester.shinyapps.io/MyCalculator/">MyCalculator.</a><br>
+Here are the list of input variables
+ 1.  First Number
+ 2.  Second Number
+ 3.  Mathematical Operator (Default Addition)
+ 4.  Citation (Default is Yes)
+ 5.  Documentation/UserGuid (Default is No)
+
+---
+## Slide 3: Mathematical Method - Addition
+
+```r
+    First_number <- 10
+    Second_number <- 20
+    sum(First_number + Second_number)
+```
+
+```
+## [1] 30
+```
+
+---
+## Slide 4: Mathematical Method - Subtraction
+
+```r
+    First_number <- 100
+    Second_number <- 20
+    subtraction <- (First_number - Second_number)
+    subtraction
+```
+
+```
+## [1] 80
+```
+
+---
+## Slide 5: Mathematical Method - Multiplicatoin
+
+```r
+    First_number <- 10
+    Second_number <- 25
+    product <- (First_number * Second_number)
+    product
+```
+
+```
+## [1] 250
+```

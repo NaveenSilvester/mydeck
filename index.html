@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MyCalculator</title>
+  <meta charset="utf-8">
+  <meta name="description" content="MyCalculator">
+  <meta name="author" content="Naveen Silvester">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>MyCalculator</h1>
+    <h2>R Shiny Application</h2>
+    <p>Naveen Silvester<br/>Data Scientist</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Slide 2: Introduction to My Calculator</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><a href="https://naveensilvester.shinyapps.io/MyCalculator/">MyCalculator</a> is an application developed in R shiny. This application enables user to enter two numbers and apply mathematical operations on it. Three mathematical
+operations are provided as choice. The default is Addition. The results from the mathematical operations is printed on to the main panel. The main panel also provides the option to see
+the Documentation/User Guide on checking the checkbox provided in the left side panel.
+Click here to experience <a href="https://naveensilvester.shinyapps.io/MyCalculator/">MyCalculator.</a><br>
+Here are the list of input variables</p>
+
+<ol>
+<li> First Number</li>
+<li> Second Number</li>
+<li> Mathematical Operator (Default Addition)</li>
+<li> Citation (Default is Yes)</li>
+<li> Documentation/UserGuid (Default is No)</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Slide 3: Mathematical Method - Addition</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code class="r">    First_number &lt;- 10
+    Second_number &lt;- 20
+    sum(First_number + Second_number)
+</code></pre>
+
+<pre><code>## [1] 30
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Slide 4: Mathematical Method - Subtraction</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code class="r">    First_number &lt;- 100
+    Second_number &lt;- 20
+    subtraction &lt;- (First_number - Second_number)
+    subtraction
+</code></pre>
+
+<pre><code>## [1] 80
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Slide 5: Mathematical Method - Multiplicatoin</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code class="r">    First_number &lt;- 10
+    Second_number &lt;- 25
+    product &lt;- (First_number * Second_number)
+    product
+</code></pre>
+
+<pre><code>## [1] 250
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Slide 2: Introduction to My Calculator'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Slide 3: Mathematical Method - Addition'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Slide 4: Mathematical Method - Subtraction'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Slide 5: Mathematical Method - Multiplicatoin'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
